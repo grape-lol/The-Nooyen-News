@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Cheltenham';
+    src: url('assets/font/cheltenham-cond-normal-300.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cheltenham';
+    src: url('assets/font/cheltenham-cond-normal-500.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cheltenham';
+    src: url('assets/font/cheltenham-cond-normal-700.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Cheltenham', Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.logo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.logo h1 {
+    font-family: 'Imperial Script', cursive;
+    font-size: 4em;
+    margin: 0;
+}
+
+.date {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    font-weight: 300;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.top-news {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.main-article {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.main-article h2 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.main-article p {
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.main-article img {
+    width: 100%;
+    height: auto;
+}
+
+.side-news {
+    flex: 1;
+}
+
+.side-news article {
+    margin-bottom: 20px;
+}
+
+.side-news h3 {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.side-news p {
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.more-news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-news article {
+    flex-basis: 30%;
+}
+
+.more-news h3 {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.more-news p {
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.more-news img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    .top-news, .more-news {
+        flex-direction: column;
+    }
+
+    .main-article, .side-news, .more-news article {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
