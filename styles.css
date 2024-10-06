@@ -33,10 +33,18 @@ header {
     padding: 10px 0;
 }
 
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
+    margin: 10px 0 0 0;
 }
 
 nav ul li {
@@ -51,22 +59,46 @@ nav ul li a {
     font-weight: 500;
 }
 
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.search-icon {
+    margin-bottom: 5px;
+}
+
+.search-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.header-middle {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.right-section {
+    width: 20px;
+}
+
 .logo {
     text-align: center;
-    margin: 20px 0;
+    flex-grow: 1;
 }
 
 .logo h1 {
     font-family: 'Imperial Script', cursive;
-    font-size: 4em;
+    font-size: 3em;
     margin: 0;
 }
 
 .date {
-    text-align: center;
     font-style: italic;
     color: #666;
     font-weight: 300;
+    font-size: 0.9em;
 }
 
 img {
@@ -78,6 +110,12 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+}
+
+.todays-paper {
+    font-weight: 500;
+    font-size: 0.9em;
+    margin-top: 5px;
 }
 
 .top-news {
@@ -164,5 +202,43 @@ footer {
     .main-article, .side-news, .more-news article {
         margin-right: 0;
         margin-bottom: 20px;
+    }
+
+    .header-top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .date {
+        order: -1;
+        margin-bottom: 10px;
+    }
+
+    .search-icon {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .left-section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .right-section {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 5px;
     }
 }
