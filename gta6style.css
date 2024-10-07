@@ -1,4 +1,9 @@
 @font-face {
+    font-family: OldEnglish;
+    src: url("assets/font/OPTIEngraversOldEnglish.otf") format("opentype");
+}
+
+@font-face {
     font-family: 'Cheltenham';
     src: url('assets/font/cheltenham-cond-normal-300.ttf') format('truetype');
     font-weight: 300;
@@ -65,7 +70,7 @@ nav ul li a {
 }
 
 .logo h1 {
-    font-family: 'Imperial Script', cursive;
+    font-family: 'OldEnglish', serif;
     font-size: 3em;
     margin: 0;
 }
