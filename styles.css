@@ -25,6 +25,7 @@
 }
 
 body {
+    font-family: 'Cheltenham', Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -33,7 +34,6 @@ body {
 
 header {
     background-color: #fff;
-    font-family: 'OldEnglish', serif;
     border-bottom: 1px solid #e2e2e2;
     padding: 10px 0;
 }
@@ -94,7 +94,8 @@ nav ul li a {
 }
 
 .logo h1 {
-    font-family: 'Cheltenham', serif;
+    
+    font-family: 'OldEnglish', serif;
     font-size: 3em;
     margin: 0;
 }
