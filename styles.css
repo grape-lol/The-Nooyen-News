@@ -19,6 +19,11 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: OldEnglish;
+    src: url("assets/font/OPTIEngraversOldEnglish.otf") format("opentype");
+}
+
 body {
     font-family: 'Cheltenham', Georgia, 'Times New Roman', Times, serif;
     margin: 0;
@@ -29,6 +34,7 @@ body {
 
 header {
     background-color: #fff;
+    font-family: 'OldEnglish', serif;
     border-bottom: 1px solid #e2e2e2;
     padding: 10px 0;
 }
