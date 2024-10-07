@@ -40,7 +40,7 @@ header {
 
 .header-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0 20px;
 }
@@ -68,6 +68,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-right: auto;
     color: inherit;
     text-decoration: none;
 }
