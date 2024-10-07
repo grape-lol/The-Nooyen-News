@@ -45,6 +45,16 @@ header {
     padding: 0 20px;
 }
 
+.header todays-paper {
+    color: inherit;
+    text-decoration: none;
+}
+
+.todays-paper {
+    color: inherit;
+    text-decoration: none;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
